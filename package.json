@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/repoflow-tool",
-  "version": "1.70.10-resolve-workspace-prod",
+  "version": "1.70.13-resolve-workspace-prod",
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
