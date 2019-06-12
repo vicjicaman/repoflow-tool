@@ -1,17 +1,17 @@
 {
   "name": "@nebulario/repoflow-tool",
-  "version": "1.70.15-resolve-workspace-prod",
+  "version": "1.70.16-resolve-workspace-prod",
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "@nebulario/nodeflow-local-graph": "1.70.1-resolve-workspace-prod",
     "@nebulario/nodeflow-local-server": "1.70.2-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-npm": "1.70.1-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-compose": "1.70.0-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-service": "1.70.0-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-namespace": "1.70.0-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-container": "1.70.0-resolve-workspace-prod",
-    "@nebulario/repoflow-plugin-config": "1.70.0-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-npm": "1.70.2-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-compose": "1.70.1-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-service": "1.70.1-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-namespace": "1.70.1-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-container": "1.70.1-resolve-workspace-prod",
+    "@nebulario/repoflow-plugin-config": "1.70.1-resolve-workspace-prod",
     "@nebulario/repoflow-plugin-bundle": "1.70.0-resolve-workspace-prod"
   }
 }
