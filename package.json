@@ -4,14 +4,14 @@
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@nebulario/nodeflow-local-graph": "1.72.5-master",
-    "@nebulario/nodeflow-local-server": "1.71.5-master",
-    "@nebulario/repoflow-plugin-npm": "1.70.6-master",
-    "@nebulario/repoflow-plugin-compose": "1.70.5-master",
+    "@nebulario/nodeflow-local-graph": "1.72.6-master",
+    "@nebulario/nodeflow-local-server": "1.71.6-master",
+    "@nebulario/repoflow-plugin-npm": "1.70.7-master",
+    "@nebulario/repoflow-plugin-compose": "1.70.6-master",
     "@nebulario/repoflow-plugin-service": "1.70.4-master",
     "@nebulario/repoflow-plugin-namespace": "1.70.4-master",
-    "@nebulario/repoflow-plugin-container": "1.70.7-master",
+    "@nebulario/repoflow-plugin-container": "1.70.8-master",
     "@nebulario/repoflow-plugin-config": "1.70.4-master",
-    "@nebulario/repoflow-plugin-bundle": "1.70.1-master"
+    "@nebulario/repoflow-plugin-bundle": "1.70.2-master"
   }
 }
