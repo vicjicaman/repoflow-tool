@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/repoflow-tool",
-  "version": "1.70.1-master",
+  "version": "1.70.0-tool-site-plugin-prod",
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
