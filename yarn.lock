@@ -181,10 +181,10 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
-"@nebulario/nodeflow-local-common@1.71.5-master":
-  version "1.71.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.5-master.tgz#d956a7c679b7dbbbab6f44ce10b0cef4ebf0909a"
-  integrity sha512-UX72zDXujfvJzWs7ud5erC9cvrptquKfrd9zsm20/ZqGiCymJct4ipY5Pk5WW4drFWeFalNBc5lBDe/B2RfvlQ==
+"@nebulario/nodeflow-local-common@1.71.6-master":
+  version "1.71.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.6-master.tgz#76c9e921cc3e7b72af6ac551320f9c7dccd30bda"
+  integrity sha512-v7dXmIiuvLmk7Aav0xKrsMlu7vC1yuQe+UH+jpwQjCgWiVdxNdb/vI/C8iRLcrvW+yhnOGodfUQVXA2ydWt/fQ==
   dependencies:
     "@nebulario/app-lang" "1.0.10-master"
     "@nebulario/app-layout" "1.70.0-master"
@@ -194,10 +194,10 @@
     uuid "^3.3.2"
     validator "^10.7.1"
 
-"@nebulario/nodeflow-local-graph@1.72.5-master":
-  version "1.72.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.5-master.tgz#b8167c0960c8d784b01a0551542ab433028eb1fa"
-  integrity sha512-2bmuvgCf4dU8Y2l4zmx0czEVj/vaK/Yhpipj456fyWYyxcf4jyoZpq6SN65iOe6Tpwb23mC+t6lVOQvb99z/RA==
+"@nebulario/nodeflow-local-graph@1.72.6-master":
+  version "1.72.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.6-master.tgz#375953f36f051f3f59a27814558231d6291bebc3"
+  integrity sha512-iFaJHu7wXKjddcJMcOr7xvaYYhRa4e+A8Wo+seWeUwFWTOzfytbaHT9RMzp69q8fHMTk0kUtzCMg2jEq82CY9g==
   dependencies:
     "@nebulario/core-logger" "1.70.0-master"
     "@nebulario/core-node" "1.70.0-master"
@@ -213,10 +213,10 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-server@1.71.5-master":
-  version "1.71.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.5-master.tgz#ceb97a732808492ca7c2ab06852bd5e273f4320b"
-  integrity sha512-hiNCPFH1kDuaTdyfvFbDb19tEqQn92NZR+zFIbB2rxnXl3kQZeZ52s7eZ5vlv9RtNm2STrwhCdkUye5dZ/txyA==
+"@nebulario/nodeflow-local-server@1.71.6-master":
+  version "1.71.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.6-master.tgz#d6f713e0e7e85b8887571b870c224c222b90a3a6"
+  integrity sha512-ACcrK78eBvkDz9pFWKRisEDUpk3LA1se20TzmIGrJu9yKGu4Iea/K5rf6CR2x7e/R8XqOMFPle7V9132QD6viA==
   dependencies:
     "@nebulario/core-logger" "1.70.0-master"
     "@nebulario/core-node" "1.70.0-master"
@@ -227,15 +227,15 @@
     "@nebulario/dll-redux" "1.70.0-master"
     "@nebulario/dll-utils" "1.70.0-master"
     "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.5-master"
-    "@nebulario/nodeflow-local-web" "1.71.5-master"
+    "@nebulario/nodeflow-local-common" "1.71.6-master"
+    "@nebulario/nodeflow-local-web" "1.71.6-master"
     compression "^1.7.3"
     dotenv "^6.2.0"
 
-"@nebulario/nodeflow-local-web@1.71.5-master":
-  version "1.71.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.5-master.tgz#48fc53f5b19e64208460fa61b6110a7ae99c2a6c"
-  integrity sha512-OKnPSSu0ghJKqNEQrOiA1dZHlGsvtduPVrFIEAiEiW2M4fGiaqVd43GGkutyfmKk6XzrQr3xZ5AugibzyfVR5g==
+"@nebulario/nodeflow-local-web@1.71.6-master":
+  version "1.71.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.6-master.tgz#2ddbd233e07648f95291b245e8a5a76c26e756d4"
+  integrity sha512-00fQO3cYw6BVX+Haqu7VKdmXNe7ZAbF3dy3IgicYYL0eXPBFVVDBzt28GWqU3GLfVTJ7ifj9EtaiC0FV6N2xlA==
   dependencies:
     "@nebulario/core-render-stateful-web" "1.70.0-master"
     "@nebulario/dll-apollo" "1.70.0-master"
@@ -243,13 +243,13 @@
     "@nebulario/dll-redux" "1.70.0-master"
     "@nebulario/dll-utils" "1.70.0-master"
     "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.5-master"
-    "@nebulario/nodeflow-local-graph" "1.72.5-master"
+    "@nebulario/nodeflow-local-common" "1.71.6-master"
+    "@nebulario/nodeflow-local-graph" "1.72.6-master"
 
-"@nebulario/repoflow-plugin-bundle@1.70.1-master":
-  version "1.70.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-bundle/-/repoflow-plugin-bundle-1.70.1-master.tgz#a125fe154861b41495870586389d262e0df0d248"
-  integrity sha512-MBjyQqHl8S+Ug8IUKbnkEe5UdNPvp29SUfTgCQOHoeneiBg+UXaIZFST5lDsxe0eKgTadfUv5qXCt074yY5Mag==
+"@nebulario/repoflow-plugin-bundle@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-bundle/-/repoflow-plugin-bundle-1.70.2-master.tgz#8b6e5779e2b5bb341e440d3b9e5efde945a0c9f9"
+  integrity sha512-n3q9xltx9LkQxU/Fw2QYYvplNrZ9beDoaUEyKMYyH3mvN8TBGH9voixgDppUPkF1fQNNyLiwjjA5cYfxCeiAfw==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.5-master"
     "@nebulario/core-process" "1.70.0-master"
@@ -261,10 +261,10 @@
     uuid "^3.2.1"
     yamljs "^0.3.0"
 
-"@nebulario/repoflow-plugin-compose@1.70.5-master":
-  version "1.70.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-compose/-/repoflow-plugin-compose-1.70.5-master.tgz#5ebdfd51eff82c0f67c4a4914872fe06ee274e8c"
-  integrity sha512-1p5xXIkcfX4i4t1PRnJDq0WC/k9iOlib1Op5i7BIuj5Jye0eLE+OP1+qYrj+kh6bC008tu6MziNOj0zoKzNW6w==
+"@nebulario/repoflow-plugin-compose@1.70.6-master":
+  version "1.70.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-compose/-/repoflow-plugin-compose-1.70.6-master.tgz#0581d4594ce55e8a5a994d1412012e5c7a81b758"
+  integrity sha512-dYpOvDODmv5zAF8gxbI+Nzc8UlPfZqHNTaeGiQO8w+xCB5VoH49QRCmFja0BS+ry2PNp+DB0GshqbRobFnPRiA==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.5-master"
     "@nebulario/core-process" "1.70.0-master"
@@ -293,10 +293,10 @@
     uuid "^3.2.1"
     yamljs "^0.3.0"
 
-"@nebulario/repoflow-plugin-container@1.70.7-master":
-  version "1.70.7-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-container/-/repoflow-plugin-container-1.70.7-master.tgz#43135aa1bf8b5e302ff57a6bce64cf16ac58694f"
-  integrity sha512-1iujb5iRPHJmofpLrWZRlc9IyVj5NHVJukCs2IUCfoWuMwNLoj+h/S3SqxsOn9NeZ/9o7MIi2KNIBWLjj2NCSw==
+"@nebulario/repoflow-plugin-container@1.70.8-master":
+  version "1.70.8-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-container/-/repoflow-plugin-container-1.70.8-master.tgz#c111316f8fcea074023ac90df05d12a0059b72c6"
+  integrity sha512-Bu2hudjXAyQvNfVJOxivkf9nUTy3h1WedywhAcz5Lmj+zYlxc/Ei6nGFMIARtHEtHPGQDzg16lOfa9UNjrjwRg==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.5-master"
     "@nebulario/core-process" "1.70.0-master"
@@ -324,10 +324,10 @@
     uuid "^3.2.1"
     yamljs "^0.3.0"
 
-"@nebulario/repoflow-plugin-npm@1.70.6-master":
-  version "1.70.6-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-npm/-/repoflow-plugin-npm-1.70.6-master.tgz#752d321973a161bb419f1fb08349aebc21e45652"
-  integrity sha512-HunFjet/Ds3K/9ql33KXAIIlnDk1fcX1biZ8bUzCIW5nqh9YLhrrGLnrIxomLRhxqxPWz/SwW911zXN34a5aUQ==
+"@nebulario/repoflow-plugin-npm@1.70.7-master":
+  version "1.70.7-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-npm/-/repoflow-plugin-npm-1.70.7-master.tgz#2a031a37f7d8b8ea3ac92786eb46e5ce38d6e68b"
+  integrity sha512-bFQMzP6qJeLtNAnGEldIoJj8Hp2J78bCQl4WJvsbrxAuePScnvj4LlqM3vb3Y23dkae/DkHNLxcCPuT5QzD1Tw==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.5-master"
     "@nebulario/core-process" "1.70.0-master"
