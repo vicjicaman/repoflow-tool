@@ -1,6 +1,6 @@
 {
   "name": "@nebulario/repoflow-tool",
-  "version": "1.70.0-tool-publish-labels-prod",
+  "version": "1.70.3-master",
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
