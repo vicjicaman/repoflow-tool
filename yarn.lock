@@ -223,14 +223,14 @@
     uuid "^3.3.2"
     validator "^10.7.1"
 
-"@nebulario/nodeflow-local-graph@1.70.0-update-graph-fix-prod":
-  version "1.70.0-update-graph-fix-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.70.0-update-graph-fix-prod.tgz#94f0cb9acf7f2c49080e5ea81e8735545c060f81"
-  integrity sha512-hTAM/hI4TTXhrvOdtA6lqsSWQu++xx+S5eDeNUrFlutGWkIo8pQWaFPbllIYsYDNi7ekZ52+2x0+uT2f1ZvVCA==
+"@nebulario/nodeflow-local-graph@1.72.4-master":
+  version "1.72.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
+  integrity sha512-pooMe7OJdkr8TdjiSsMeuYhatQoVbApQtya05SDAj+6YjFZa294qQxjM1HZ4ANdtHP9HQC4z3jzvEA9ecpDw4A==
   dependencies:
-    "@nebulario/core-logger" "1.70.1-master"
-    "@nebulario/core-node" "1.70.1-master"
-    "@nebulario/core-process" "1.70.1-master"
+    "@nebulario/core-logger" "1.70.0-master"
+    "@nebulario/core-node" "1.70.0-master"
+    "@nebulario/core-process" "1.70.0-master"
     axios "^0.18.0"
     cors "^2.8.4"
     dotenv "^6.2.0"
@@ -242,14 +242,14 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-graph@1.72.4-master":
-  version "1.72.4-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
-  integrity sha512-pooMe7OJdkr8TdjiSsMeuYhatQoVbApQtya05SDAj+6YjFZa294qQxjM1HZ4ANdtHP9HQC4z3jzvEA9ecpDw4A==
+"@nebulario/nodeflow-local-graph@1.73.0-master":
+  version "1.73.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.73.0-master.tgz#dc4f4dcb663fea269efc3d2a2f0d27fd03ec42d3"
+  integrity sha512-UsoAdEHnTh1X9QXjJlKDLjQVnplduvwrpbeklGz7k5ZrbfKoOU6rrn/ca6w/kWDYrFEt1hZuVs6jvxaLbno24g==
   dependencies:
-    "@nebulario/core-logger" "1.70.0-master"
-    "@nebulario/core-node" "1.70.0-master"
-    "@nebulario/core-process" "1.70.0-master"
+    "@nebulario/core-logger" "1.70.1-master"
+    "@nebulario/core-node" "1.70.1-master"
+    "@nebulario/core-process" "1.70.1-master"
     axios "^0.18.0"
     cors "^2.8.4"
     dotenv "^6.2.0"
