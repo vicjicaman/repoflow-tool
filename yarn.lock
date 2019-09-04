@@ -62,28 +62,10 @@
     babel-runtime "^6.26.0"
     winston "^3.1.0"
 
-"@nebulario/core-logger@1.70.1-master":
-  version "1.70.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-logger/-/core-logger-1.70.1-master.tgz#86c2e7610c186dced7b88f7bca989a374bc618f4"
-  integrity sha512-QMPZaW3Hh15oeFi0OEk7sJ+jx9SXuugyvlqDC7mY/WpL/9r4EF1HaT2gWnU9y7RljsenWepIMHguqjr1TQcFhw==
-  dependencies:
-    babel-runtime "^6.26.0"
-    winston "^3.1.0"
-
 "@nebulario/core-node@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/core-node/-/core-node-1.70.0-master.tgz#1b054769d606f0113311fba2dc7e8ed4ff6bc6f7"
   integrity sha512-iuXzjQIoxyRs71yZSV9GxkIQG0znmui3mztkA8B5sFGBNerVVo2sKF8vVWSS/LKJHPCiMEezFoUxsfmvmuoddg==
-  dependencies:
-    body-parser "^1.18.2"
-    express "^4.16.2"
-    express-request-id "^1.4.0"
-    rotating-file-stream "^1.3.4"
-
-"@nebulario/core-node@1.70.1-master":
-  version "1.70.1-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-node/-/core-node-1.70.1-master.tgz#b960b89fe08841857e3d5688dfec27d4f36c55e0"
-  integrity sha512-8ZlLpnb0z8CbdNgoEaIa5ThRHYioIpCafsDs/CH280NWkXfR+wzefv+ZR7HvsGYZDlHrdatxv3ZZzDTUJRhotQ==
   dependencies:
     body-parser "^1.18.2"
     express "^4.16.2"
@@ -223,14 +205,14 @@
     uuid "^3.3.2"
     validator "^10.7.1"
 
-"@nebulario/nodeflow-local-graph@1.70.0-update-graph-prod":
-  version "1.70.0-update-graph-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.70.0-update-graph-prod.tgz#e2a2a84f6d86ea53cfb58363a071a10d9e74f19b"
-  integrity sha512-qjYaaYERVLHpr0Yvf4lTXMUkZWZLjziY9ld2NGswwmpSQanFuIdRi9N9T9ipbujzgEuA/3BfUUP+mYARPGZlJw==
+"@nebulario/nodeflow-local-graph@1.72.4-master":
+  version "1.72.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
+  integrity sha512-pooMe7OJdkr8TdjiSsMeuYhatQoVbApQtya05SDAj+6YjFZa294qQxjM1HZ4ANdtHP9HQC4z3jzvEA9ecpDw4A==
   dependencies:
-    "@nebulario/core-logger" "1.70.1-master"
-    "@nebulario/core-node" "1.70.1-master"
-    "@nebulario/core-process" "1.70.1-master"
+    "@nebulario/core-logger" "1.70.0-master"
+    "@nebulario/core-node" "1.70.0-master"
+    "@nebulario/core-process" "1.70.0-master"
     axios "^0.18.0"
     cors "^2.8.4"
     dotenv "^6.2.0"
@@ -242,10 +224,10 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-graph@1.72.4-master":
-  version "1.72.4-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
-  integrity sha512-pooMe7OJdkr8TdjiSsMeuYhatQoVbApQtya05SDAj+6YjFZa294qQxjM1HZ4ANdtHP9HQC4z3jzvEA9ecpDw4A==
+"@nebulario/nodeflow-local-graph@1.72.6-master":
+  version "1.72.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.6-master.tgz#375953f36f051f3f59a27814558231d6291bebc3"
+  integrity sha512-iFaJHu7wXKjddcJMcOr7xvaYYhRa4e+A8Wo+seWeUwFWTOzfytbaHT9RMzp69q8fHMTk0kUtzCMg2jEq82CY9g==
   dependencies:
     "@nebulario/core-logger" "1.70.0-master"
     "@nebulario/core-node" "1.70.0-master"
