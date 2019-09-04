@@ -1,15 +1,15 @@
 {
   "name": "@nebulario/repoflow-tool",
-  "version": "1.70.0-sync-kind-fix-prod",
+  "version": "1.70.4-master",
   "main": "start.sh",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "@nebulario/nodeflow-local-graph": "1.70.0-sync-kind-fix-prod",
+    "@nebulario/nodeflow-local-graph": "1.72.5-master",
     "@nebulario/nodeflow-local-server": "1.71.4-master",
     "@nebulario/repoflow-plugin-npm": "1.70.9-master",
     "@nebulario/repoflow-plugin-compose": "1.70.8-master",
-    "@nebulario/repoflow-plugin-service": "1.70.0-sync-kind-fix-prod",
-    "@nebulario/repoflow-plugin-namespace": "1.70.0-sync-kind-fix-prod",
+    "@nebulario/repoflow-plugin-service": "1.70.7-master",
+    "@nebulario/repoflow-plugin-namespace": "1.70.7-master",
     "@nebulario/repoflow-plugin-container": "1.70.10-master",
     "@nebulario/repoflow-plugin-config": "1.70.6-master",
     "@nebulario/repoflow-plugin-bundle": "1.70.4-master"
