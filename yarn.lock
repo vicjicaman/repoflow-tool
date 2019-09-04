@@ -34,23 +34,23 @@
   dependencies:
     react-toastify "^4.1.0"
 
-"@nebulario/core-config@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-config/-/core-config-1.70.0-master.tgz#5f06d7b468799b0d709da51a8212b6230e17fd52"
-  integrity sha512-KbrFfWko5HvH36BCOHwcX3g3M1tUZgiZs3+kZIKXeJ6n3dZWQjMx+kMTu1Wpiw6uV6wU4CCi0F/I9GZwAE++qw==
+"@nebulario/core-config@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-config/-/core-config-1.70.2-master.tgz#9cc531ad43752cadce9f4be010def3c95b07bac2"
+  integrity sha512-hcnobQNndln/CVOAsjEGAFzjF+ka5aTRSyuZ1Ksi1y5tMxyB8XKvSg0YCNpkn+5foqdAhWiuRmiLvgyCbBtwog==
   dependencies:
-    "@nebulario/core-json" "1.70.0-master"
-    "@nebulario/core-repository" "1.70.0-master"
+    "@nebulario/core-json" "1.70.1-master"
+    "@nebulario/core-repository" "1.70.1-master"
     babel-runtime "^6.26.0"
     bluebird "^3.5.1"
     child-process-promise "^2.2.1"
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/core-json@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-json/-/core-json-1.70.0-master.tgz#854c806d800ade7e0e3d94df4bda75244d1bd251"
-  integrity sha512-lLk4W9Y1R63lZ/MCDM4gWWqaTLUpmlI7dY0i/RnEGJe6u9Q1H5R0cKNOhfIJVjJWndcjzqe06N0Q9Wu7fYgEXA==
+"@nebulario/core-json@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-json/-/core-json-1.70.1-master.tgz#7731a6a1d93b3887dde5566f45710116732dfdd8"
+  integrity sha512-OrqH2P3JBHeZ3bll8o4IYZTwV5uR2UubLU4l+KAYK2kRIk96mnL+NScAWoTqm2v9PztN/RhCZRxtzqACYxYh2Q==
   dependencies:
     yamljs "^0.3.0"
 
@@ -62,10 +62,28 @@
     babel-runtime "^6.26.0"
     winston "^3.1.0"
 
+"@nebulario/core-logger@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-logger/-/core-logger-1.70.1-master.tgz#86c2e7610c186dced7b88f7bca989a374bc618f4"
+  integrity sha512-QMPZaW3Hh15oeFi0OEk7sJ+jx9SXuugyvlqDC7mY/WpL/9r4EF1HaT2gWnU9y7RljsenWepIMHguqjr1TQcFhw==
+  dependencies:
+    babel-runtime "^6.26.0"
+    winston "^3.1.0"
+
 "@nebulario/core-node@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/core-node/-/core-node-1.70.0-master.tgz#1b054769d606f0113311fba2dc7e8ed4ff6bc6f7"
   integrity sha512-iuXzjQIoxyRs71yZSV9GxkIQG0znmui3mztkA8B5sFGBNerVVo2sKF8vVWSS/LKJHPCiMEezFoUxsfmvmuoddg==
+  dependencies:
+    body-parser "^1.18.2"
+    express "^4.16.2"
+    express-request-id "^1.4.0"
+    rotating-file-stream "^1.3.4"
+
+"@nebulario/core-node@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-node/-/core-node-1.70.1-master.tgz#b960b89fe08841857e3d5688dfec27d4f36c55e0"
+  integrity sha512-8ZlLpnb0z8CbdNgoEaIa5ThRHYioIpCafsDs/CH280NWkXfR+wzefv+ZR7HvsGYZDlHrdatxv3ZZzDTUJRhotQ==
   dependencies:
     body-parser "^1.18.2"
     express "^4.16.2"
@@ -96,6 +114,17 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
+"@nebulario/core-process@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-process/-/core-process-1.70.1-master.tgz#0f6b7eb56e87d663c551fccc97433b1f6088440a"
+  integrity sha512-hN2k0dGItpzqs9TqQNa+aOGIOkT5PlIevE+lQKii7EzaB/O4DGpnIzkLaMVhFvC2A8CiT16N7HvchIpztr6SUA==
+  dependencies:
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    child-process-promise "^2.2.1"
+    lodash "^4.17.4"
+    uuid "^3.3.2"
+
 "@nebulario/core-render-stateful-server@1.70.0-master":
   version "1.70.0-master"
   resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-server/-/core-render-stateful-server-1.70.0-master.tgz#083f49e180ff2353f9990395ad2becdc1ef4d685"
@@ -115,12 +144,12 @@
     recompose "^0.30.0"
     redux-actions "^2.6.4"
 
-"@nebulario/core-repository@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-repository/-/core-repository-1.70.0-master.tgz#d2b60d7dca10a161a6869e6e32d5cd6a75a15cfe"
-  integrity sha512-I5bxZ7sjiLwR3rdNcYf8BDiB0zOzrYe3PkJcyoOX11knihFiK86HL8zDewiSFqz22tObcCA2up1CAkcmzr9N1Q==
+"@nebulario/core-repository@1.70.1-master":
+  version "1.70.1-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-repository/-/core-repository-1.70.1-master.tgz#33e5837e2a12313f4fb4a6cfe28e5acddc366df5"
+  integrity sha512-d/cCCYXXId0Pd+26uQgOtD7RpQgYuORG9kxKnZQR//XBcxBf55V45HyYBNWnQieehNErzuwHysJfYoUeUTzvAQ==
   dependencies:
-    "@nebulario/core-process" "1.70.0-master"
+    "@nebulario/core-process" "1.70.1-master"
 
 "@nebulario/dll-apollo@1.70.0-master":
   version "1.70.0-master"
@@ -194,6 +223,25 @@
     uuid "^3.3.2"
     validator "^10.7.1"
 
+"@nebulario/nodeflow-local-graph@1.70.0-sync-kind-fix-prod":
+  version "1.70.0-sync-kind-fix-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.70.0-sync-kind-fix-prod.tgz#7ceade392bb4eec19349d7a6c474ed83325ee8a0"
+  integrity sha512-ylweY4ZSJb/JuLjVG1ooIkoIZYjdeiniwWwIYavw+nNWWah+bLyPdiwihpy3hFWwJj55XBr9GkocETud/pjkxA==
+  dependencies:
+    "@nebulario/core-logger" "1.70.1-master"
+    "@nebulario/core-node" "1.70.1-master"
+    "@nebulario/core-process" "1.70.1-master"
+    axios "^0.18.0"
+    cors "^2.8.4"
+    dotenv "^6.2.0"
+    express-graphql "^0.6.12"
+    graphql "^0.13.2"
+    graphql-request "^1.8.2"
+    graphql-tools "^3.0.0"
+    graphql-tools-types "^1.1.19"
+    lodash "^4.17.11"
+    semver "^5.6.0"
+
 "@nebulario/nodeflow-local-graph@1.72.4-master":
   version "1.72.4-master"
   resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.4-master.tgz#bf985aab52c76c152f6419e854b09b4f65392d51"
@@ -246,13 +294,13 @@
     "@nebulario/nodeflow-local-common" "1.71.4-master"
     "@nebulario/nodeflow-local-graph" "1.72.4-master"
 
-"@nebulario/repoflow-plugin-bundle@1.70.3-master":
-  version "1.70.3-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-bundle/-/repoflow-plugin-bundle-1.70.3-master.tgz#add55c8b0519e379d7bb0cb5b6f34f613f0c9e0b"
-  integrity sha512-MYlgKFbQmdUG52R/qgQF1bFiayV4cwgYM4QzBgiBQADEyZ3ZP75lFV/Ie/9B0rsDkpcGRV6rZzzQAB8hap22rg==
+"@nebulario/repoflow-plugin-bundle@1.70.4-master":
+  version "1.70.4-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-bundle/-/repoflow-plugin-bundle-1.70.4-master.tgz#aca27f6ed626c7d0c4ae756e198febab4c875720"
+  integrity sha512-6FIcbrUB/b8ibZaH2aOh60BZ9c9e/ABsGCTXZC9pMbgx1JUo2StygZm/syXl/V1xxnTaXjmbsvX5CrZg5ofqSw==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
+    "@nebulario/core-process" "1.70.1-master"
     axios "^0.18.0"
     babel-runtime "^6.26.0"
     bluebird "^3.5.1"
@@ -261,76 +309,78 @@
     uuid "^3.2.1"
     yamljs "^0.3.0"
 
-"@nebulario/repoflow-plugin-compose@1.70.7-master":
-  version "1.70.7-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-compose/-/repoflow-plugin-compose-1.70.7-master.tgz#de0153a9d063661fca923422da0ab06336430267"
-  integrity sha512-wOjSeA1U9Ohi++PW9eGU4fdCGTERRNXus7P56nUaf59ivu6VV9sTb8YN8u81y59fH9YqHYxHGsl6VJpcu7rzIA==
-  dependencies:
-    "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
-    axios "^0.18.0"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.1"
-    fs-extra "^7.0.1"
-    graphql-request "^1.6.0"
-    tree-kill "^1.2.0"
-    uuid "^3.2.1"
-    yamljs "^0.3.0"
-
-"@nebulario/repoflow-plugin-config@1.70.5-master":
-  version "1.70.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-config/-/repoflow-plugin-config-1.70.5-master.tgz#80eaa281a322f8ba5e551d4e70cde5792674fcc2"
-  integrity sha512-Ayzi7Zua5PsUAsAwyqCuNdoD2MwG9NIjEdzPhJuV1Fi1d64KnuCStVCX0RN4bE6QGjU09Sb25IgYUE87jxAvAg==
-  dependencies:
-    "@nebulario/core-config" "1.70.0-master"
-    "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
-    axios "^0.18.0"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.1"
-    fs-extra "^7.0.1"
-    tree-kill "^1.2.0"
-    uuid "^3.2.1"
-    yamljs "^0.3.0"
-
-"@nebulario/repoflow-plugin-container@1.70.9-master":
-  version "1.70.9-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-container/-/repoflow-plugin-container-1.70.9-master.tgz#f6fecb93ed15870537948ab9bdbedd0e83603545"
-  integrity sha512-aDUqTv1hSal76QTpekcBP+V+oTSWZh9HCoJ4IwxVtQ89KkGtXtroZ+kocSEWplcnrIWrBuNE5NM431c0y2LMpw==
-  dependencies:
-    "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
-    axios "^0.18.0"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.1"
-    fs-extra "^7.0.1"
-    graphql-request "^1.6.0"
-    tree-kill "^1.2.0"
-    uuid "^3.2.1"
-    yamljs "^0.3.0"
-
-"@nebulario/repoflow-plugin-namespace@1.70.5-master":
-  version "1.70.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-namespace/-/repoflow-plugin-namespace-1.70.5-master.tgz#e1b92fb7bbcd956cd25d99a309e1a167cce38f76"
-  integrity sha512-F5vsIHVh+DHj2aF6q+Hs9TEwy9pp91covRaDkLlvh+zBJuVpiycj3WrsWUOGxCfPUVUaTsnH8ZNJIYHHdKgffA==
-  dependencies:
-    "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
-    axios "^0.18.0"
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.1"
-    fs-extra "^7.0.1"
-    tree-kill "^1.2.0"
-    uuid "^3.2.1"
-    yamljs "^0.3.0"
-
-"@nebulario/repoflow-plugin-npm@1.70.8-master":
+"@nebulario/repoflow-plugin-compose@1.70.8-master":
   version "1.70.8-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-npm/-/repoflow-plugin-npm-1.70.8-master.tgz#43535662149d00c0647e802f77c96c5dc72f6855"
-  integrity sha512-c2Y2FhOszQPAq/26CrMLqzlAy22KPzlPDIBKUWLOqEqQdKQgVcI5IOYnSn3eg6fx3jXEXBFL3lz7n8qQ6xw3kw==
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-compose/-/repoflow-plugin-compose-1.70.8-master.tgz#5c453864ecc11f3d0c8de6ebd405f6746eea7b07"
+  integrity sha512-ZzHhhWptMrbwD+RB2hmA7qDfAXUxj4OWulkpHVaMJiAFRVIIUeM3HBaeYoh48lR/w3fF937llvtx2qV3y8hI3Q==
   dependencies:
     "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
+    "@nebulario/core-process" "1.70.1-master"
+    axios "^0.18.0"
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    fs-extra "^7.0.1"
+    graphql-request "^1.6.0"
+    tree-kill "^1.2.0"
+    uuid "^3.2.1"
+    yamljs "^0.3.0"
+
+"@nebulario/repoflow-plugin-config@1.70.6-master":
+  version "1.70.6-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-config/-/repoflow-plugin-config-1.70.6-master.tgz#d44dbfaae9c7e8bdaac83074210ea903e73a7f68"
+  integrity sha512-IzowHcOhxx3svIuLQl1AkXAnJfVsW18U9TDQZOZyy3aH26T3Ph07SkgChxomGxyLhVrGioUyeqEFWVAcuRIbRQ==
+  dependencies:
+    "@nebulario/core-config" "1.70.2-master"
+    "@nebulario/core-plugin-request" "1.70.6-master"
+    "@nebulario/core-process" "1.70.1-master"
+    axios "^0.18.0"
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    fs-extra "^7.0.1"
+    tree-kill "^1.2.0"
+    uuid "^3.2.1"
+    yamljs "^0.3.0"
+
+"@nebulario/repoflow-plugin-container@1.70.10-master":
+  version "1.70.10-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-container/-/repoflow-plugin-container-1.70.10-master.tgz#e5f5f13fb132e97e1eec7cb5536e547190cbdb84"
+  integrity sha512-RpvqGUN3D26OzXmeI6EPy4XkTDvNbtZfvzokehXGaAm368DTphPty0pHwI1tt20eXpVTWmUsVUezjy55lLZ1Ag==
+  dependencies:
+    "@nebulario/core-plugin-request" "1.70.6-master"
+    "@nebulario/core-process" "1.70.1-master"
+    axios "^0.18.0"
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    fs-extra "^7.0.1"
+    graphql-request "^1.6.0"
+    tree-kill "^1.2.0"
+    uuid "^3.2.1"
+    yamljs "^0.3.0"
+
+"@nebulario/repoflow-plugin-namespace@1.70.0-sync-kind-fix-prod":
+  version "1.70.0-sync-kind-fix-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-namespace/-/repoflow-plugin-namespace-1.70.0-sync-kind-fix-prod.tgz#090a52bf672df97edc3710ce722edae3ffabf6a2"
+  integrity sha512-mdFHfA58EgJFBgRIHJVWslQqKdiRx8204nlDYvaxj4go8c7DIAQnEGL5BagwWKa7tZgCTmCwFtjVVh0qFt+9YA==
+  dependencies:
+    "@nebulario/core-config" "1.70.2-master"
+    "@nebulario/core-json" "1.70.1-master"
+    "@nebulario/core-plugin-request" "1.70.6-master"
+    "@nebulario/core-process" "1.70.1-master"
+    axios "^0.18.0"
+    babel-runtime "^6.26.0"
+    bluebird "^3.5.1"
+    fs-extra "^7.0.1"
+    tree-kill "^1.2.0"
+    uuid "^3.2.1"
+    yamljs "^0.3.0"
+
+"@nebulario/repoflow-plugin-npm@1.70.9-master":
+  version "1.70.9-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-npm/-/repoflow-plugin-npm-1.70.9-master.tgz#fac151adf1a6a9ceea1b53b1dab5bccf436c3971"
+  integrity sha512-7SsS4pOo/5l9/hUckw1H0uuc8cuVEwoOk442AtJI2p4vmS15PS4M7bXsrwqVeTezOGt8/dOwwTkGRRfDawbqjA==
+  dependencies:
+    "@nebulario/core-plugin-request" "1.70.6-master"
+    "@nebulario/core-process" "1.70.1-master"
     axios "^0.18.0"
     babel-runtime "^6.26.0"
     bluebird "^3.5.1"
@@ -339,13 +389,15 @@
     uuid "^3.2.1"
     yamljs "^0.3.0"
 
-"@nebulario/repoflow-plugin-service@1.70.5-master":
-  version "1.70.5-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-service/-/repoflow-plugin-service-1.70.5-master.tgz#e0ff6c9c0dad9c20b9776abfade13cd3ae1b3547"
-  integrity sha512-WU9kwyWS1NG/dw7eC6fCPn5Fz3H0+YMLm/DBY5mVfh+QKfCfswFG40Z+xILneerEVZLv4it/03E7B6CnZ/6jyg==
+"@nebulario/repoflow-plugin-service@1.70.0-sync-kind-fix-prod":
+  version "1.70.0-sync-kind-fix-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/repoflow-plugin-service/-/repoflow-plugin-service-1.70.0-sync-kind-fix-prod.tgz#905732dc4aa33e5d3cd30e1a32fa3020bcc70409"
+  integrity sha512-3zJ4xhkdTwvVexAignnFrXiIxlyuyzOi2jMnwe6BU8M6O03nAZy0XigdKFs/o33BMr2xTe2SmVoXfLTnGePVXw==
   dependencies:
+    "@nebulario/core-config" "1.70.2-master"
+    "@nebulario/core-json" "1.70.1-master"
     "@nebulario/core-plugin-request" "1.70.6-master"
-    "@nebulario/core-process" "1.70.0-master"
+    "@nebulario/core-process" "1.70.1-master"
     axios "^0.18.0"
     babel-runtime "^6.26.0"
     bluebird "^3.5.1"
