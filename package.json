@@ -11,6 +11,7 @@
     "@nebulario/repoflow-plugin-service": "1.70.8-master",
     "@nebulario/repoflow-plugin-namespace": "1.70.8-master",
     "@nebulario/repoflow-plugin-container": "1.70.11-master",
-    "@nebulario/repoflow-plugin-config": "1.70.7-master"
+    "@nebulario/repoflow-plugin-config": "1.70.7-master",
+    "@nebulario/repoflow-plugin-stateful": "1.70.7-master"
   }
 }
