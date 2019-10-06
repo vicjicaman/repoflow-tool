@@ -17,20 +17,20 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/app-lang@1.0.10-master":
-  version "1.0.10-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/app-lang/-/app-lang-1.0.10-master.tgz#19e1f11482dd3d4648e017ab01a4f8b4945af84c"
-  integrity sha1-GeHxFILdPUZI4BerAaT4tJRa+Ew=
+"@nebulario/app-lang@1.70.0-plugin-upgrade-prod":
+  version "1.70.0-plugin-upgrade-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/app-lang/-/app-lang-1.70.0-plugin-upgrade-prod.tgz#f6ced3c1f4f0b303274a5d18527368e94edc8991"
+  integrity sha512-K/DynunElHQHGfU7nUG49tVu5ns1LeFDgFd9QMgmJKeY7ighv8Z8nqdmufTjkQvoH4ildPd4YG5CeuPqEV/0QA==
 
-"@nebulario/app-layout@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/app-layout/-/app-layout-1.70.0-master.tgz#893ce94a36f9c8c3a5081fd35ddaa62dda20e7cf"
-  integrity sha512-wmIgZqG7A1fmXz3ne2qsuRSK9UW/kg/cGVQ7vjYWQ69Jhferq5feuFnDa/QOPehuRuTkDY70e2bcyg8h3DQ5HA==
+"@nebulario/app-layout@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/app-layout/-/app-layout-1.70.2-master.tgz#1413a63c67bd2ea5302f47def9c89b7dbabf5c8a"
+  integrity sha512-ba6aMiklCIbCYZnFksKatN4U/C7VHn9fyQovVJUM4RsYidRNHKoUAGTIEzdDB/KT4dWKIi3lO312/DGWVWkLhw==
 
-"@nebulario/app-notify@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/app-notify/-/app-notify-1.70.0-master.tgz#e072e0306346e2d78086bee329c8e4b935a64d98"
-  integrity sha512-v4deV4mnoZQ+VRNPcBVI7vDjhDBIbM1NGLvROjycpOkDXzUhVvFWyO8TIGOl+K1A+XWw5ggrvdXQpcH+hguChA==
+"@nebulario/app-notify@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/app-notify/-/app-notify-1.70.2-master.tgz#57dbf03e3bb8eaa22e1cac93435a7ed3186f09d9"
+  integrity sha512-lp4406AvpX1+OaomtuLCxZdMeH/2sftmWkTQaP4uvHqFcljw5+dHOobGslwCEXNtgFtDp/F1xV9q3DKiWtuGcw==
   dependencies:
     react-toastify "^4.1.0"
 
@@ -41,14 +41,6 @@
   dependencies:
     yamljs "^0.3.0"
 
-"@nebulario/core-logger@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-logger/-/core-logger-1.70.0-master.tgz#5c6295ae0821c616bb2355bcdb863ecefe1292aa"
-  integrity sha512-0QhMmDUaivCEZOYsw1ifI80Gbfcip56C9Y+VW2a7f+PSwO1Mqxzp36k4wViHN0ycydLMVKAVlLbhUsSGauGLFw==
-  dependencies:
-    babel-runtime "^6.26.0"
-    winston "^3.1.0"
-
 "@nebulario/core-logger@1.70.1-master":
   version "1.70.1-master"
   resolved "https://registry.yarnpkg.com/@nebulario/core-logger/-/core-logger-1.70.1-master.tgz#86c2e7610c186dced7b88f7bca989a374bc618f4"
@@ -56,16 +48,6 @@
   dependencies:
     babel-runtime "^6.26.0"
     winston "^3.1.0"
-
-"@nebulario/core-node@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-node/-/core-node-1.70.0-master.tgz#1b054769d606f0113311fba2dc7e8ed4ff6bc6f7"
-  integrity sha512-iuXzjQIoxyRs71yZSV9GxkIQG0znmui3mztkA8B5sFGBNerVVo2sKF8vVWSS/LKJHPCiMEezFoUxsfmvmuoddg==
-  dependencies:
-    body-parser "^1.18.2"
-    express "^4.16.2"
-    express-request-id "^1.4.0"
-    rotating-file-stream "^1.3.4"
 
 "@nebulario/core-node@1.70.1-master":
   version "1.70.1-master"
@@ -76,17 +58,6 @@
     express "^4.16.2"
     express-request-id "^1.4.0"
     rotating-file-stream "^1.3.4"
-
-"@nebulario/core-process@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-process/-/core-process-1.70.0-master.tgz#614bb5134de536ca7ee949f4282ddab37924f5e4"
-  integrity sha512-QRJxAXgGuizN8UjTLtZJqViE9RJuiWqG13Ls1vtsZXW5+dIZFbF/ZjtNC5r/yPxQK5DTLeGKZyHPy97JPaJRNg==
-  dependencies:
-    babel-runtime "^6.26.0"
-    bluebird "^3.5.1"
-    child-process-promise "^2.2.1"
-    lodash "^4.17.4"
-    uuid "^3.3.2"
 
 "@nebulario/core-process@1.70.1-master":
   version "1.70.1-master"
@@ -99,18 +70,18 @@
     lodash "^4.17.4"
     uuid "^3.3.2"
 
-"@nebulario/core-render-stateful-server@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-server/-/core-render-stateful-server-1.70.0-master.tgz#083f49e180ff2353f9990395ad2becdc1ef4d685"
-  integrity sha512-nxrOSpGdHfLBISa5v8Fw9v/uApsDaLF3w2OKbOU7p7Ww2LQwITChrMm5MqiP/J+h1AExOQPvXVoPk1lIymst+A==
+"@nebulario/core-render-stateful-server@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-server/-/core-render-stateful-server-1.70.2-master.tgz#5fb9caf57befd032e0df29256be78be6b2113741"
+  integrity sha512-x2ctRdFdBOErpak5PUQU11xpH+2TmjLkhiFurCl/ePoDkvS5B2dAkiSCkd21qLbXW/xMOs2tIJisQooM237QWg==
   dependencies:
     babel-runtime "^6.26.0"
     lodash "^4.17.11"
 
-"@nebulario/core-render-stateful-web@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-web/-/core-render-stateful-web-1.70.0-master.tgz#caa8536d72e7a83db23d683aa9588725260a28eb"
-  integrity sha512-m+QdvsEs2PJwJaGSqsBM+1b5Nt2e1sVPDO0hhZAlTzXZS4X4PE/XN6FH5RoEddBGgGQBMC4B3Ff4r9tX5WSFGQ==
+"@nebulario/core-render-stateful-web@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/core-render-stateful-web/-/core-render-stateful-web-1.70.2-master.tgz#e737fec4c6fd88f7e0c1a003ecefadd7097c2505"
+  integrity sha512-8LneUU4mHzu8JQBNcpGtqn/UT4ArYtD2VUKqlNjCXC0uSSiBrS6AQI0ORCTkGeZ4LvznE50yleFQRLfL/SMz0A==
   dependencies:
     apollo-link-state "^0.4.1"
     babel-runtime "^6.26.0"
@@ -118,10 +89,10 @@
     recompose "^0.30.0"
     redux-actions "^2.6.4"
 
-"@nebulario/dll-apollo@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/dll-apollo/-/dll-apollo-1.70.0-master.tgz#ce54e1d2d2a664ce253afa1dbe676de517f1f414"
-  integrity sha512-Ci8yJYGRFsk5VlXrxGOCPn03Ae4Ryon0WS8jyRsXui0DWOYKvJfC/KHR+Suzn9jGoujBB/r/jZRrxn6izYs38w==
+"@nebulario/dll-apollo@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/dll-apollo/-/dll-apollo-1.70.2-master.tgz#3c8eb037f913a1f956af0d8c182affe28498db78"
+  integrity sha512-oCn/YN4zQ1V5VQmJPxCRbbqK7Vkl56ii6ACjoFApzxoORPiqwL18zE8eH5BNJC4SYPwE7nD44oHeNDLN/WFN/w==
   dependencies:
     apollo-cache-inmemory "^1.1.4"
     apollo-client "^2.0.4"
@@ -131,10 +102,10 @@
     graphql-tag "^2.8.0"
     react-apollo "^2.0.4"
 
-"@nebulario/dll-react@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/dll-react/-/dll-react-1.70.0-master.tgz#209a48a490d111ceb289ed23db8c08f363b3e720"
-  integrity sha512-ZDfPjseOKJ48io3FyQESF5QEKH7rR57wAan61V9d3RRnbdQVnSJjinpBz/+pFfbl/Asvtc/kKSv+LfX/WkVipw==
+"@nebulario/dll-react@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/dll-react/-/dll-react-1.70.2-master.tgz#e5bdb4dba9cf9d876f43441da1e76eb3fcbc9c53"
+  integrity sha512-oy7RSmmBpo88IJ2ZsaKsfLaKMz5yfCbhGc2PVA1gdPEbliAsaUdDyGvjoPZkSEhTFtDjJD5zALAXW287SHT2Nw==
   dependencies:
     history "^4.7.2"
     loadable-components "^0.4.0"
@@ -145,10 +116,10 @@
     react-router-dom "^4.2.2"
     recompose "^0.26.0"
 
-"@nebulario/dll-redux@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/dll-redux/-/dll-redux-1.70.0-master.tgz#d8d807bbde56bced45ea910a0fe571ce8c5317b3"
-  integrity sha512-hG8xapFDMSDM9x2odZ5ktblOBQ0UDcWIirL7u1CXZ9CcvFLsvdrwQHTamqP6+kV3sUsi4V2fmClkqJ5V6YOzrw==
+"@nebulario/dll-redux@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/dll-redux/-/dll-redux-1.70.2-master.tgz#ce44032a0109b4ae8cefdc3a0a4c3e86ccac6b6b"
+  integrity sha512-Ak7nC6GdqMyhCHo/ifa8Iekdi5Ah4W3DNY7jFUozteimTU+1Sv/G7/jalVICM+5Km9ZKmHvIqTlvkGqKq1Kvmw==
   dependencies:
     react-redux "^5.0.6"
     react-router-redux "^5.0.0-alpha.9"
@@ -156,19 +127,19 @@
     redux-actions "^2.2.1"
     redux-saga "^0.16.0"
 
-"@nebulario/dll-utils@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/dll-utils/-/dll-utils-1.70.0-master.tgz#493224c6bbbb2639bf2243372151d09566230354"
-  integrity sha512-LRe3XtliYavsHcSMIB0Kd1VvOpZEvmtKR5O43XnwISiQptos323meqT46up0lb6oxJFNqWd5pRNlSB8GcyxxCw==
+"@nebulario/dll-utils@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/dll-utils/-/dll-utils-1.70.2-master.tgz#2c4a91c583cec120dff15d98c908f32b00cd655f"
+  integrity sha512-t38vu+6/ghUVoOv2Wb04T3K0HS+3rVCz8iUhMKl9w/DTMqsxH6AZiNpncpYXSNd/RPpPiEbqVPPRwUPyR1KY7g==
   dependencies:
     deepmerge "^2.0.1"
     moment "^2.22.1"
     validation "^0.0.1"
 
-"@nebulario/dll-vendor@1.70.0-master":
-  version "1.70.0-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/dll-vendor/-/dll-vendor-1.70.0-master.tgz#c34f64640c922cc9f2f25d2661be3de4285966d8"
-  integrity sha512-LUbD0PURaMpJPgI/JJdSISZ3zfJxQU/L0HG9/axcGflaGPafx7xjt7nYki0oyj8KaWnMPHHwoMr3gjda9DSm4A==
+"@nebulario/dll-vendor@1.70.2-master":
+  version "1.70.2-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/dll-vendor/-/dll-vendor-1.70.2-master.tgz#4651d94f4f236109061079204ec0a4aa8f28696e"
+  integrity sha512-0sipqJnUtrbhs28Te5iCP2QCkmCCiHx7AFk9LC5OzJNp6XVx3vaZWmylRQ/kqhrR2qmDE+gsJfZ4Ps6mFPWicg==
   dependencies:
     bootstrap "4.1.1"
     font-awesome "^4.7.0"
@@ -177,37 +148,18 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
-"@nebulario/nodeflow-local-common@1.71.6-master":
-  version "1.71.6-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.6-master.tgz#76c9e921cc3e7b72af6ac551320f9c7dccd30bda"
-  integrity sha512-v7dXmIiuvLmk7Aav0xKrsMlu7vC1yuQe+UH+jpwQjCgWiVdxNdb/vI/C8iRLcrvW+yhnOGodfUQVXA2ydWt/fQ==
+"@nebulario/nodeflow-local-common@1.70.0-plugin-upgrade-prod":
+  version "1.70.0-plugin-upgrade-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.70.0-plugin-upgrade-prod.tgz#7574beea819e536abe85d0d77f7023b944cf4487"
+  integrity sha512-W/GGXKtsvkBQRLlWVzXnUR3a3wAOtOOD9QqxSpZBMi5AkBHzEKizdqCKAN/XZDlnyGl3HUd9Kizahav06ddong==
   dependencies:
-    "@nebulario/app-lang" "1.0.10-master"
-    "@nebulario/app-layout" "1.70.0-master"
-    "@nebulario/app-notify" "1.70.0-master"
+    "@nebulario/app-lang" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/app-layout" "1.70.2-master"
+    "@nebulario/app-notify" "1.70.2-master"
     performance-now "^2.1.0"
     react-bootstrap-typeahead "^3.1.3"
     uuid "^3.3.2"
     validator "^10.7.1"
-
-"@nebulario/nodeflow-local-graph@1.72.6-master":
-  version "1.72.6-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-graph/-/nodeflow-local-graph-1.72.6-master.tgz#375953f36f051f3f59a27814558231d6291bebc3"
-  integrity sha512-iFaJHu7wXKjddcJMcOr7xvaYYhRa4e+A8Wo+seWeUwFWTOzfytbaHT9RMzp69q8fHMTk0kUtzCMg2jEq82CY9g==
-  dependencies:
-    "@nebulario/core-logger" "1.70.0-master"
-    "@nebulario/core-node" "1.70.0-master"
-    "@nebulario/core-process" "1.70.0-master"
-    axios "^0.18.0"
-    cors "^2.8.4"
-    dotenv "^6.2.0"
-    express-graphql "^0.6.12"
-    graphql "^0.13.2"
-    graphql-request "^1.8.2"
-    graphql-tools "^3.0.0"
-    graphql-tools-types "^1.1.19"
-    lodash "^4.17.11"
-    semver "^5.6.0"
 
 "@nebulario/nodeflow-local-graph@1.73.2-master":
   version "1.73.2-master"
@@ -229,38 +181,38 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-server@1.71.6-master":
-  version "1.71.6-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.6-master.tgz#d6f713e0e7e85b8887571b870c224c222b90a3a6"
-  integrity sha512-ACcrK78eBvkDz9pFWKRisEDUpk3LA1se20TzmIGrJu9yKGu4Iea/K5rf6CR2x7e/R8XqOMFPle7V9132QD6viA==
+"@nebulario/nodeflow-local-server@1.70.0-plugin-upgrade-prod":
+  version "1.70.0-plugin-upgrade-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.70.0-plugin-upgrade-prod.tgz#82042cfa5a1c8f24a8253bb55a88545a7c35cfa2"
+  integrity sha512-eT8No49ttA7oKlRUeMc39Cg1sifYIq6z2niix7d/DFFi9SwTXwlmTH3O/YI4uS2TK5JPw8J/+8f835VxgWWN7A==
   dependencies:
-    "@nebulario/core-logger" "1.70.0-master"
-    "@nebulario/core-node" "1.70.0-master"
-    "@nebulario/core-process" "1.70.0-master"
-    "@nebulario/core-render-stateful-server" "1.70.0-master"
-    "@nebulario/dll-apollo" "1.70.0-master"
-    "@nebulario/dll-react" "1.70.0-master"
-    "@nebulario/dll-redux" "1.70.0-master"
-    "@nebulario/dll-utils" "1.70.0-master"
-    "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.6-master"
-    "@nebulario/nodeflow-local-web" "1.71.6-master"
+    "@nebulario/core-logger" "1.70.1-master"
+    "@nebulario/core-node" "1.70.1-master"
+    "@nebulario/core-process" "1.70.1-master"
+    "@nebulario/core-render-stateful-server" "1.70.2-master"
+    "@nebulario/dll-apollo" "1.70.2-master"
+    "@nebulario/dll-react" "1.70.2-master"
+    "@nebulario/dll-redux" "1.70.2-master"
+    "@nebulario/dll-utils" "1.70.2-master"
+    "@nebulario/dll-vendor" "1.70.2-master"
+    "@nebulario/nodeflow-local-common" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/nodeflow-local-web" "1.70.0-plugin-upgrade-prod"
     compression "^1.7.3"
     dotenv "^6.2.0"
 
-"@nebulario/nodeflow-local-web@1.71.6-master":
-  version "1.71.6-master"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.6-master.tgz#2ddbd233e07648f95291b245e8a5a76c26e756d4"
-  integrity sha512-00fQO3cYw6BVX+Haqu7VKdmXNe7ZAbF3dy3IgicYYL0eXPBFVVDBzt28GWqU3GLfVTJ7ifj9EtaiC0FV6N2xlA==
+"@nebulario/nodeflow-local-web@1.70.0-plugin-upgrade-prod":
+  version "1.70.0-plugin-upgrade-prod"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.70.0-plugin-upgrade-prod.tgz#f96d00c395b58aac3a5f58a38068437d5e3cfdd0"
+  integrity sha512-AQVim9EhWiTx8yHgf9ipi0UyPxgXdomb66WT7i9+kjA53/Ya3zvviePSm09H/f0wBlooW88V1tBiPqMJUa2hGw==
   dependencies:
-    "@nebulario/core-render-stateful-web" "1.70.0-master"
-    "@nebulario/dll-apollo" "1.70.0-master"
-    "@nebulario/dll-react" "1.70.0-master"
-    "@nebulario/dll-redux" "1.70.0-master"
-    "@nebulario/dll-utils" "1.70.0-master"
-    "@nebulario/dll-vendor" "1.70.0-master"
-    "@nebulario/nodeflow-local-common" "1.71.6-master"
-    "@nebulario/nodeflow-local-graph" "1.72.6-master"
+    "@nebulario/core-render-stateful-web" "1.70.2-master"
+    "@nebulario/dll-apollo" "1.70.2-master"
+    "@nebulario/dll-react" "1.70.2-master"
+    "@nebulario/dll-redux" "1.70.2-master"
+    "@nebulario/dll-utils" "1.70.2-master"
+    "@nebulario/dll-vendor" "1.70.2-master"
+    "@nebulario/nodeflow-local-common" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/nodeflow-local-graph" "1.73.2-master"
 
 "@types/node@>=6":
   version "12.0.7"
