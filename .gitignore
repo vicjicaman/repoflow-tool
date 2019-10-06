@@ -2,6 +2,7 @@
 **/node_modules
 
 # production
+**/workspace
 **/dist
 **/service
 **/__generated__
