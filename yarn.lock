@@ -17,10 +17,10 @@
   dependencies:
     regenerator-runtime "^0.13.2"
 
-"@nebulario/app-lang@1.70.0-plugin-upgrade-prod":
-  version "1.70.0-plugin-upgrade-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/app-lang/-/app-lang-1.70.0-plugin-upgrade-prod.tgz#f6ced3c1f4f0b303274a5d18527368e94edc8991"
-  integrity sha512-K/DynunElHQHGfU7nUG49tVu5ns1LeFDgFd9QMgmJKeY7ighv8Z8nqdmufTjkQvoH4ildPd4YG5CeuPqEV/0QA==
+"@nebulario/app-lang@1.70.0-master":
+  version "1.70.0-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/app-lang/-/app-lang-1.70.0-master.tgz#40d74709aaf67be06dee53e7669504689430dd89"
+  integrity sha512-SaFmqtNaqmXSGL/VPXrbeJz1RxgKFry9j7kIY2qo1MkZaDdga2cn39CxCSE6jGn/H+62setFHU2gPPyY7L8NNQ==
 
 "@nebulario/app-layout@1.70.2-master":
   version "1.70.2-master"
@@ -148,12 +148,12 @@
     popper.js "^1.12.9"
     reactstrap "^6.4.0"
 
-"@nebulario/nodeflow-local-common@1.70.0-plugin-upgrade-prod":
-  version "1.70.0-plugin-upgrade-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.70.0-plugin-upgrade-prod.tgz#7574beea819e536abe85d0d77f7023b944cf4487"
-  integrity sha512-W/GGXKtsvkBQRLlWVzXnUR3a3wAOtOOD9QqxSpZBMi5AkBHzEKizdqCKAN/XZDlnyGl3HUd9Kizahav06ddong==
+"@nebulario/nodeflow-local-common@1.71.7-master":
+  version "1.71.7-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-common/-/nodeflow-local-common-1.71.7-master.tgz#5633c1301133331e7f799fc622f012d900ada80e"
+  integrity sha512-ECH/D5U2zfFINPdxkO+ElENfDroql2KZFN1yuZwRmuiazhX4DAxHqSeyTu7G8d0pUezWsNhjukEHKLAnendnoA==
   dependencies:
-    "@nebulario/app-lang" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/app-lang" "1.70.0-master"
     "@nebulario/app-layout" "1.70.2-master"
     "@nebulario/app-notify" "1.70.2-master"
     performance-now "^2.1.0"
@@ -181,10 +181,10 @@
     lodash "^4.17.11"
     semver "^5.6.0"
 
-"@nebulario/nodeflow-local-server@1.70.0-plugin-upgrade-prod":
-  version "1.70.0-plugin-upgrade-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.70.0-plugin-upgrade-prod.tgz#82042cfa5a1c8f24a8253bb55a88545a7c35cfa2"
-  integrity sha512-eT8No49ttA7oKlRUeMc39Cg1sifYIq6z2niix7d/DFFi9SwTXwlmTH3O/YI4uS2TK5JPw8J/+8f835VxgWWN7A==
+"@nebulario/nodeflow-local-server@1.71.7-master":
+  version "1.71.7-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-server/-/nodeflow-local-server-1.71.7-master.tgz#ac1ccf0707db5451cfaa2a330c860faba6f76dd6"
+  integrity sha512-U7sEfP5L3Dmq9JmkyTkS0Iug+GfX3p+i1DH/9sJzOggT3Vn3oEWGvGxacLJm3DzkwiX+eN7cz9qSccsYhegSig==
   dependencies:
     "@nebulario/core-logger" "1.70.1-master"
     "@nebulario/core-node" "1.70.1-master"
@@ -195,15 +195,15 @@
     "@nebulario/dll-redux" "1.70.2-master"
     "@nebulario/dll-utils" "1.70.2-master"
     "@nebulario/dll-vendor" "1.70.2-master"
-    "@nebulario/nodeflow-local-common" "1.70.0-plugin-upgrade-prod"
-    "@nebulario/nodeflow-local-web" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/nodeflow-local-common" "1.71.7-master"
+    "@nebulario/nodeflow-local-web" "1.71.7-master"
     compression "^1.7.3"
     dotenv "^6.2.0"
 
-"@nebulario/nodeflow-local-web@1.70.0-plugin-upgrade-prod":
-  version "1.70.0-plugin-upgrade-prod"
-  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.70.0-plugin-upgrade-prod.tgz#f96d00c395b58aac3a5f58a38068437d5e3cfdd0"
-  integrity sha512-AQVim9EhWiTx8yHgf9ipi0UyPxgXdomb66WT7i9+kjA53/Ya3zvviePSm09H/f0wBlooW88V1tBiPqMJUa2hGw==
+"@nebulario/nodeflow-local-web@1.71.7-master":
+  version "1.71.7-master"
+  resolved "https://registry.yarnpkg.com/@nebulario/nodeflow-local-web/-/nodeflow-local-web-1.71.7-master.tgz#5585bfc1d19ad51890eaeeaccd710b16aba66cbb"
+  integrity sha512-iO+adXlEfsWaxYLKdeVWq+GVnR+JQ0PEYtefdcy/UG5kGYTzJaH+sP5KixwbsfUNBu9upx5aWWPVkWQ25H4n+A==
   dependencies:
     "@nebulario/core-render-stateful-web" "1.70.2-master"
     "@nebulario/dll-apollo" "1.70.2-master"
@@ -211,7 +211,7 @@
     "@nebulario/dll-redux" "1.70.2-master"
     "@nebulario/dll-utils" "1.70.2-master"
     "@nebulario/dll-vendor" "1.70.2-master"
-    "@nebulario/nodeflow-local-common" "1.70.0-plugin-upgrade-prod"
+    "@nebulario/nodeflow-local-common" "1.71.7-master"
     "@nebulario/nodeflow-local-graph" "1.73.2-master"
 
 "@types/node@>=6":
