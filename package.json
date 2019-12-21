@@ -1,10 +1,1 @@
-{
-  "name": "@nebulario/repoflow-tool",
-  "version": "1.70.6-master",
-  "main": "start.sh",
-  "license": "SEE LICENSE IN LICENSE",
-  "dependencies": {
-    "@nebulario/nodeflow-local-graph": "1.73.2-master",
-    "@nebulario/nodeflow-local-server": "1.71.7-master"
-  }
-}
+{"dependencies":{"@nebulario/nodeflow-local-server":"link:./../nodeflow-local-server","@nebulario/nodeflow-local-graph":"link:./../nodeflow-local-graph","@nebulario/repoflow-plugin-server":"link:./../repoflow-plugin-server"}}
