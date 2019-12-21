@@ -16,7 +16,7 @@ export REPOFLOW_EVENTS_URL=${REPOFLOW_GRAPHQL_SERVER}/events
 export REPOFLOW_PLUGINS_URL=${REPOFLOW_PLUGIN_SERVER}/
 
 export REPOFLOW_GRAPHQL_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/nodeflow-local-graph
-export REPOFLOW_WEB_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/nodeflow-local-server
+export REPOFLOW_WEB_VERSION=1.70.2-repoflow-tool-script-prod #module @nebulario/nodeflow-local-server
 export REPOFLOW_PLUGIN_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/repoflow-plugin-server
 
 echo "Starting..."
