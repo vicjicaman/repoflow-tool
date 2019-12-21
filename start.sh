@@ -15,9 +15,9 @@ export REPOFLOW_GRAPHQL_URL=${REPOFLOW_GRAPHQL_SERVER}/graphql
 export REPOFLOW_EVENTS_URL=${REPOFLOW_GRAPHQL_SERVER}/events
 export REPOFLOW_PLUGINS_URL=${REPOFLOW_PLUGIN_SERVER}/
 
-export REPOFLOW_GRAPHQL_VERSION=1.73.8-master #module @nebulario/nodeflow-local-graph
-export REPOFLOW_WEB_VERSION=1.71.12-master #module @nebulario/nodeflow-local-server
-export REPOFLOW_PLUGIN_VERSION=1.70.2-master #module @nebulario/repoflow-plugin-server
+export REPOFLOW_GRAPHQL_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/nodeflow-local-graph
+export REPOFLOW_WEB_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/nodeflow-local-server
+export REPOFLOW_PLUGIN_VERSION=1.70.1-repoflow-tool-script-prod #module @nebulario/repoflow-plugin-server
 
 echo "Starting..."
 echo "{\"dependencies\":{\"@nebulario/nodeflow-local-server\":\"${REPOFLOW_WEB_VERSION}\",\"@nebulario/nodeflow-local-graph\":\"${REPOFLOW_GRAPHQL_VERSION}\",\"@nebulario/repoflow-plugin-server\":\"${REPOFLOW_PLUGIN_VERSION}\"}}" > package.json
