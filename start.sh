@@ -23,7 +23,7 @@ echo "Starting..."
 echo "{\"dependencies\":{\"@nebulario/nodeflow-local-server\":\"${REPOFLOW_WEB_VERSION}\",\"@nebulario/nodeflow-local-graph\":\"${REPOFLOW_GRAPHQL_VERSION}\",\"@nebulario/repoflow-plugin-server\":\"${REPOFLOW_PLUGIN_VERSION}\"}}" > package.json
 
 
-export NODE_ENV="development"
+export NODE_ENV="production"
 yarn install --production=true
 
 echo "Starting graph at port ${REPOFLOW_GRAPHQL_SERVICE_PORT}"
