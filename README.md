@@ -1,6 +1,6 @@
 # Repoflow tool
 
-Repoflow is a tool adn workflow to help you work with microservices and multiple repositories with Kubernetes.
+Repoflow is a tool and workflow to help you work with microservices and multiple repositories with Kubernetes.
 
 ## Features
 
